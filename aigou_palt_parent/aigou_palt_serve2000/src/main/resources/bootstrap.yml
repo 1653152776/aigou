@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:9998 #配置服务器
+      label: master #分支
+      name: palt_serve_application #github上面名称
+      profile: test
